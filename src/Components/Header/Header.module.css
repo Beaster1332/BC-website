@@ -4,11 +4,19 @@
     z-index: 9999;
     width: 100%;
     height: 75px;
-    background-color: blueviolet;
+    background-color: #290052;
 }
 
 .headerContainer {
     width: 1200px;
     height: inherit;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 24px;
+    color: white;
 }
