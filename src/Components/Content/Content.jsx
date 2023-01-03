@@ -1,13 +1,13 @@
 import React from "react";
+import AboutMeContainer from "./ContentBlocks/AboutMe/AboutMeContainer.jsx";
+import MyProjectsContainer from "./ContentBlocks/MyProjects/MyProjectsContainer.jsx";
 import classes from './Content.module.css';
-import AboutMe from "./ContentBlocks/AboutMe/AboutMe";
 
 const Content = (props) => {
 
-    const { myInfo,  } = props;
-
     return <div className={classes.contentContainer}>
-        <AboutMe myInfo={myInfo}/>
+        <AboutMeContainer />
+        <MyProjectsContainer />
     </div>
 }
 

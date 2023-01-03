@@ -3,10 +3,18 @@ import classes from './AboutMe.module.css';
 
 const AboutMe = (props) => {
 
-    const { myInfo } = props;
+    const { myInfo, photo } = props;
 
     return <div className={classes.aboutMeContainer}>
-        {myInfo}
+        <h1>Обо мне</h1>
+        <div className={classes.content}>
+            <div className={classes.infoBlock}>
+                {myInfo}
+            </div>
+            <div className={classes.imageBlock}>
+                <img src={photo} alt="Фотография" />
+            </div>
+        </div>
     </div>
 }
 

@@ -1,10 +1,11 @@
 import { connect } from "react-redux";
-import Content from "./Content.jsx";
+import AboutMe from "./AboutMe.jsx";
 
 const mapStateToProps = (state) => {
     return {
         myInfo: state.aboutMeReducer.myInfo,
+        photo: state.aboutMeReducer.photo,
     }
 }
 
-export default connect(mapStateToProps, null)(Content);
+export default connect(mapStateToProps, null)(AboutMe);
