@@ -1,7 +1,14 @@
-.project {
-    width: 700px;
-    height: 150px;
+.projectBlock {
+    width: 100%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project {
+    width: 675px;
+    height: 150px;
     padding: 15px 25px;
     border: 1px solid black;
     border-radius: 10px;
@@ -19,4 +26,45 @@
 
 .sourceProject {
     text-decoration: none;
+    display: block;
+    width: 125px;
+    font-weight: 600;
+    color: #290052;
+    transition: color, transform ease .3s, .3s;
+}
+
+.sourceProject:visited {
+    color: #42394B;
+}
+
+.sourceProject:hover {
+    color: #BD7BFF;
+    transform: scale(1.05);
+}
+
+.sourceProject:active {
+    color: #7D50AB;
+    transform: scale(1);
+}
+
+.projectImage {
+    border: 2px solid #7D50AB;
+    transition: transform ease .3s;
+}
+
+.projectImage:hover {
+    transform: scale(1.05);
+}
+
+.projectImage:active {
+    transform: scale(1);
+}
+
+.imageSrc {
+    display: block;
+    width: 350px;
+}
+
+.image {
+    width: inherit;
 }
