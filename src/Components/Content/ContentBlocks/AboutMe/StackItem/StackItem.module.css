@@ -1,0 +1,13 @@
+.stackItem {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 15px;
+}
+
+.stackItemImage {
+    width: 150px;
+}
+
+.stackItemName {
+    text-align: center;
+}

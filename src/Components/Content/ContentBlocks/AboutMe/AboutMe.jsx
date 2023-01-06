@@ -1,9 +1,12 @@
 import React from "react";
+import StackItem from "./StackItem/StackItem.jsx";
 import classes from './AboutMe.module.css';
 
 const AboutMe = (props) => {
 
     const { myInfo, photo } = props;
+
+    const stackPhotoItems = photo.map(p => <StackItem key={p.name} {...p} />)
 
     return <div className={classes.aboutMeContainer}>
         <h1>Обо мне</h1>
@@ -12,7 +15,7 @@ const AboutMe = (props) => {
                 {myInfo}
             </div>
             <div className={classes.imageBlock}>
-                <img src={photo} alt="Фотография" />
+                {stackPhotoItems}
             </div>
         </div>
     </div>
