@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BC-website/static/css/main.2acaa356.css",
+    "main.js": "/BC-website/static/js/main.539190df.js",
+    "index.html": "/BC-website/index.html",
+    "main.2acaa356.css.map": "/BC-website/static/css/main.2acaa356.css.map",
+    "main.539190df.js.map": "/BC-website/static/js/main.539190df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2acaa356.css",
+    "static/js/main.539190df.js"
+  ]
+}
