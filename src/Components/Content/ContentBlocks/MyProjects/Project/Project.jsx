@@ -14,7 +14,7 @@ const Project = (props) => {
         <img src="https://img.icons8.com/sf-regular/96/000000/chevron-right.png" alt="" />
         <div className={classes.projectImage}>
             <a className={classes.imageSrc} href={src} target="_blank" rel="noreferrer">
-                <img className={classes.image} src={img} alt="" />
+                <img className={classes.image} src={process.env.PUBLIC_URL + img} alt="" />
             </a>
         </div>
     </div>
