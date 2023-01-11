@@ -7,8 +7,8 @@
 }
 
 .project {
-    width: 675px;
-    height: 150px;
+    max-width: 675px;
+    max-height: 150px;
     padding: 15px 25px;
     border: 1px solid black;
     border-radius: 10px;
@@ -67,4 +67,48 @@
 
 .image {
     width: inherit;
+}
+
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+    .projectBlock {
+        margin-bottom: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .arrowImage {
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 979px) {
+    .projectBlock {
+        margin-bottom: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .arrowImage {
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .projectBlock {
+        margin-bottom: 30px;
+        padding: 0 25px 0 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .project {
+        max-height: 175px;
+    }
+
+    .arrowImage {
+        transform: rotate(90deg);
+    }
 }

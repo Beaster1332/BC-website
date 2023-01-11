@@ -11,7 +11,7 @@ const Project = (props) => {
             <p className={classes.descriptionProject}>{desctiption}</p>
             <a className={classes.sourceProject} href={src} target="_blank" rel="noreferrer">Перейти на сайт</a>
         </div>
-        <img src="https://img.icons8.com/sf-regular/96/000000/chevron-right.png" alt="" />
+        <img className={classes.arrowImage} src="https://img.icons8.com/sf-regular/96/000000/chevron-right.png" alt="" />
         <div className={classes.projectImage}>
             <a className={classes.imageSrc} href={src} target="_blank" rel="noreferrer">
                 <img className={classes.image} src={process.env.PUBLIC_URL + img} alt="" />
