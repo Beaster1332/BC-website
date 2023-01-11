@@ -23,3 +23,19 @@
         justify-content: center;
     }
 }
+
+@media screen and (min-width: 430px) and (max-width: 639px) {
+    .projectsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 429px) {
+    .projectsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

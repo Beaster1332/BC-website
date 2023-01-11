@@ -55,3 +55,25 @@
         font-size: 20px;
     }
 }
+
+@media screen and (min-width: 430px) and (max-width: 639px) {
+    .headerContainer {
+        width: 430px;
+        padding: 0 15px 0 15px;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 429px) {
+    .headerContainer {
+        width: 375px;
+        padding: 0 15px 0 15px;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+}

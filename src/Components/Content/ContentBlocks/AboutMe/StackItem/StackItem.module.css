@@ -44,3 +44,25 @@
         width: 110px;
     }
 }
+
+@media screen and (min-width: 430px) and (max-width: 639px) {
+    .stackItem {
+        max-width: 140px;
+        max-height: 140px;
+    }
+
+    .stackItemImage {
+        width: 90px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 429px) {
+    .stackItem {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .stackItemImage {
+        width: 70px;
+    }
+}

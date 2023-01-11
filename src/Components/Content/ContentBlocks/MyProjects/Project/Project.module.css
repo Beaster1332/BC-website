@@ -62,11 +62,11 @@
 
 .imageSrc {
     display: block;
-    width: 350px;
+    max-width: 350px;
 }
 
 .image {
-    width: inherit;
+    max-width: inherit;
 }
 
 @media screen and (min-width: 980px) and (max-width: 1199px) {
@@ -106,6 +106,42 @@
 
     .project {
         max-height: 175px;
+    }
+
+    .arrowImage {
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 639px) {
+    .projectBlock {
+        margin-bottom: 30px;
+        padding: 0 25px 0 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .project {
+        max-height: 245px;
+    }
+
+    .arrowImage {
+        transform: rotate(90deg);
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 429px) {
+    .projectBlock {
+        margin-bottom: 30px;
+        padding: 0 15px 0 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .project {
+        max-height: 245px;
     }
 
     .arrowImage {
