@@ -24,10 +24,15 @@
     margin-bottom: 7px;
 }
 
-.sourceProject {
+.sourcesContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sourceProject, .gitHubSource {
     text-decoration: none;
-    display: block;
-    width: 125px;
+    max-width: 150px;
     font-weight: 600;
     color: #290052;
     transition: color, transform ease .3s, .3s;
@@ -37,12 +42,26 @@
     color: #410081;
 }
 
+.gitHubSource:visited {
+    color: #410081;
+}
+
 .sourceProject:hover {
     color: #BD7BFF;
     transform: scale(1.05);
 }
 
+.gitHubSource:hover {
+    color: #BD7BFF;
+    transform: scale(1.05);
+}
+
 .sourceProject:active {
+    color: #7D50AB;
+    transform: scale(1);
+}
+
+.gitHubSource:active {
     color: #7D50AB;
     transform: scale(1);
 }
@@ -98,7 +117,7 @@
 @media screen and (min-width: 640px) and (max-width: 768px) {
     .projectBlock {
         margin-bottom: 30px;
-        padding: 0 25px 0 25px;
+        padding: 0 25px;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
@@ -116,7 +135,7 @@
 @media screen and (min-width: 430px) and (max-width: 639px) {
     .projectBlock {
         margin-bottom: 30px;
-        padding: 0 25px 0 25px;
+        padding: 0 25px;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
@@ -134,7 +153,7 @@
 @media screen and (min-width: 375px) and (max-width: 429px) {
     .projectBlock {
         margin-bottom: 30px;
-        padding: 0 15px 0 15px;
+        padding: 0 15px;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
