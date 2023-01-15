@@ -150,10 +150,10 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 429px) {
+@media screen and (min-width: 360px) and (max-width: 429px) {
     .projectBlock {
         margin-bottom: 30px;
-        padding: 0 15px;
+        padding: 0 10px;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;

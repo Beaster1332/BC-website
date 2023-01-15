@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 429px) {
+@media screen and (min-width: 360px) and (max-width: 429px) {
     .stackItem {
         max-width: 120px;
         max-height: 120px;
