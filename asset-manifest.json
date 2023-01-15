@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/BC-website/static/css/main.6236d7eb.css",
+    "main.css": "/BC-website/static/css/main.a8a24b8d.css",
     "main.js": "/BC-website/static/js/main.cdd5ef92.js",
     "index.html": "/BC-website/index.html",
-    "main.6236d7eb.css.map": "/BC-website/static/css/main.6236d7eb.css.map",
+    "main.a8a24b8d.css.map": "/BC-website/static/css/main.a8a24b8d.css.map",
     "main.cdd5ef92.js.map": "/BC-website/static/js/main.cdd5ef92.js.map"
   },
   "entrypoints": [
-    "static/css/main.6236d7eb.css",
+    "static/css/main.a8a24b8d.css",
     "static/js/main.cdd5ef92.js"
   ]
 }
