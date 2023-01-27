@@ -12,5 +12,12 @@ export const projects = [
         src: 'https://Beaster1332.github.io/Movie-searcher',
         gitHub: 'https://github.com/Beaster1332/Movie-searcher',
         img: '/ProjectsImages/Movies.png'
+    },
+    {
+        name: 'Квиз-игра',
+        desctiption: 'Простое приложение с квизом, который можно дополнить в вариантах ответов или вопросов. Приложение адаптировано под разные устройства.',
+        src: 'https://Beaster1332.github.io/Quiz-game',
+        gitHub: 'https://github.com/Beaster1332/Quiz-game',
+        img: '/ProjectsImages/Quiz.png'
     }
 ]
