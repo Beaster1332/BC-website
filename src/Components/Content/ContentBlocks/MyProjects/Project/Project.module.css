@@ -82,6 +82,8 @@
 .imageSrc {
     display: block;
     max-width: 350px;
+    max-height: 189px;
+    overflow: hidden;
 }
 
 .image {
