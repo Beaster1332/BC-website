@@ -19,5 +19,12 @@ export const projects = [
         src: 'https://Beaster1332.github.io/Quiz-game',
         gitHub: 'https://github.com/Beaster1332/Quiz-game',
         img: '/ProjectsImages/Quiz.png'
+    },
+    {
+        name: 'Клавиатура',
+        desctiption: 'Виртуальная клавиатура с некоторыми функциями, которые есть на реальных экземплярах. Это приложение написано на TypeScript.',
+        src: 'https://Beaster1332.github.io/Virtual-keyboard',
+        gitHub: 'https://github.com/Beaster1332/Virtual-keyboard',
+        img: '/ProjectsImages/Keyboard.png'
     }
 ]
